@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="main">
+      <h1>Bingo Creator</h1>
+      <div id="bingo-creator">
+        <form>
+          <label for="title">Enter a title:</label>
+          <input type="text" id="title" name="title">
+          <label for="words">Enter the words: (seperated by newline)</label>
+          <textarea id="words" name="words" rows="10" cols="35"></textarea>
+          <button type="button" id="update">Update Bingo Card</button>
+          <button type="button" id="random">Randomize Order</button>
+          <button type="button" id="ibby">Ibby Bingo</button>
+          <button type="clear" id="clear">Clear Card</button>
+          <!--<button type="button" id="download">Download Bingo Card</button>-->
+        </form>
+        <div id=bingo-card-container>
+          <p id="bingo-card-title">Title of Bingo Card</p>
+          <div id="bingo-card"></div>
+        </div>
+      </div>
+    </div>
+    
+	<script src="js/index.js"></script>
+  </body>
+</html>
