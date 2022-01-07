@@ -3,6 +3,7 @@
     --grid-rows: 1;
 }
 
+/* Base styles */
 body {
     background-color: lightslategray;
 }
@@ -15,14 +16,16 @@ body {
     padding: 2em;
 }
 
-#bingo-creator {
-    display: flex;
-    justify-content: space-around;
-}
-
+/* Title */
 h1 {
     text-align: center;
     margin-bottom: 1em;
+}
+
+/* Bingo controls */
+#bingo-creator {
+    display: flex;
+    justify-content: space-around;
 }
 
 form {
@@ -31,6 +34,11 @@ form {
     gap: 1em;
 }
 
+#words {
+    resize: none;
+}
+
+/* Bingo Card */
 #bingo-card-container {
     background-color:lightcyan;
     padding: 1em 3em 1em 3em;

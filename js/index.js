@@ -136,7 +136,8 @@ Invading your private space
 Repeating something 3 times or more
 'We are the universe experiencing itself'
 Talking about his nails
-'Bozo'`
+'Bozo'
+'You'll get it someday'`
         })
     })
 
